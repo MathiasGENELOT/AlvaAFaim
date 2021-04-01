@@ -1,0 +1,10 @@
+/* 
+    Author     : antho
+*/
+
+#root
+{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-image: url("../../../ressources/images/Menu_principal/UNCxSimonet.png");
+}

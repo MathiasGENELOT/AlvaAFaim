@@ -1,0 +1,44 @@
+/* 
+    Author     : antho
+*/
+
+#root
+{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-image: url("../../../ressources/images/Menu_principal/menu_background_empty.png");
+}
+
+#seedField {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FFB59F;
+}
+
+#slider {
+
+    -fx-control-inner-background: #ff9966; 
+    -fx-show-tick-labels: true;
+    -fx-tick-label-fill: #ffcc66;
+    -fx-pref-width: 200px;
+}
+
+
+#slider .thumb {
+    -fx-background-color: #cc3300;
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+}
+
+#slider .axis {
+    -fx-tick-label-fill: #ffcc66;
+}
+
+#slider .track {
+    -fx-background-color: #FFB59F;
+    -fx-pref-height:20;
+}
+
+.slider:vertical .track {
+    -fx-pref-width:20;
+}

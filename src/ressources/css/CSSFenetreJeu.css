@@ -1,0 +1,94 @@
+/* 
+    Created on : 11 nov. 2020, 16:14:10
+    Author     : antho
+*/
+
+#background
+{
+    -fx-background-images: url("../../../images/map/background.png");
+}
+
+.scroll-pane{
+   -fx-background-color:transparent;
+}
+
+#magasin {
+    -fx-background-color:#a09fab;
+}
+
+scroll-pane > .viewport { 
+   -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+       -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #cdcdd2;
+    -fx-background-radius: 5em;
+}
+
+#invContent .scroll-bar:horizontal .thumb,
+#invContent .scroll-bar:vertical .thumb {
+    -fx-background-color: #ff6633;
+    -fx-background-radius: 5em;
+}
+
+#seed {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: #e5e5e5;
+}
+
+
+#seedField {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FFB59F;
+}
+
+#slider {
+
+    -fx-control-inner-background: #ff9966; 
+    -fx-show-tick-labels: true;
+    -fx-tick-label-fill: #ffcc66;
+    -fx-pref-width: 200px;
+}
+
+
+#slider .thumb {
+    -fx-background-color: #cc3300;
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+}
+
+#slider .axis {
+    -fx-tick-label-fill: #ffcc66;
+}
+
+#slider .track {
+    -fx-background-color: #FFB59F;
+    -fx-pref-height:20;
+}
+
+.slider:vertical .track {
+    -fx-pref-width:20;
+}
